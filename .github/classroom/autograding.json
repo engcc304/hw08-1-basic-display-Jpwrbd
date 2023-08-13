@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "Set 1",
+      "setup": "g++ -o a.out ./Homework/HW08/hw08-1-basic-display.cpp",
+      "run": "./a.out",
+      "input": "6\r\n19\r\n7\r\n23\r\n96\r\n77\r\n16\r\n",
+      "output": "Sum = 238\r\nAvg = 39.67",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
